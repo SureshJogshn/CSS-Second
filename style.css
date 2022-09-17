@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 7px solid rgb(0, 201, 0) ;
+    width: 100%;
+    height:  230vh;
+    padding: 20px;
+    background-image:url('./images/bac.jpg');
+}
+
+.first{
+    border: 8px solid red;
+    padding: 20px;
+    width: 33%;
+    height: 170px;
+    border-radius: 40px;
+    background-color: black;
+}
+.first h1{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+/* -------------------------------------- */
+.txt{
+    border: 8px solid red;
+    border-radius: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left:20%;
+    padding: 2%;
+    background-color: black;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    width: 37%;
+
+}
+
+.text1{
+    line-height: 20px;
+    padding-top:3%;
+}
+
+.text2{
+    margin-left:40%;
+    padding-left: 5%; 
+
+}
+
+/* ------------------------- */
+.form{
+    border: 10px solid rgb(88, 88, 92);
+    width: 450px;
+    height: 450px;
+    padding: 0px;
+    border-radius:50%;
+    background-color: rgb(19, 165, 170);
+    margin-top: 20%;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+.round{
+    margin-top: 20%;
+}
+
+.round h1,HR{
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.form1{
+    background-color: #fff;
+    position: absolute;
+    top: 30%;
+    left:55%;
+    border: 5px dashed red;
+    padding: 3%;
+    width: 35%;
+    height: 80%;
+}
+
+.form1 .save input{
+    width: 50%;
+    height: 2.5vh;
+    margin-top: 2%;
+    margin-left: 23%;
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 5%;
+    color: tomato;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.7rem;
+    color: tomato;
+}
+
+.menu{
+    margin-top: 20%;
+    background-color: black;
+    border: 8px solid  red;
+    border-radius: 30px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+h4{
+    color: #fff;
+    line-height: 75px;
+    font-size: 2rem;
+ 
+}
+
+/* -------------------------------------------------- */
+
+.slide h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 45px;
+}
+
+.slide ul{
+    margin-top: 20px;
+}
+
+.slide ul li{
+    color: blueviolet;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.slide{
+    background-color: aquamarine;
+    display: inline-block;
+    border:4px solid green;
+    border-radius: 20px;
+    padding: 25px;
+    width: 30%;
+    margin: 3% 1%;
+}
